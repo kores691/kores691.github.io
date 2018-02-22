@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Baikal</title>
+    <meta content="" name="description">
+
+    <meta http-equiv="x-ua-compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="img/" type="image/x-icon">
+
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/jquery-ui-1.9.2.custom.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+
+<body>
+
+    <div id="modal">
+        <div id="close_mod">
+            <i class="fas fa-times"></i>
+        </div>
+        <div id="content_modal">
+            <form action="">
+                <div class="input">
+                    <input type="text" name="login" placeholder="Login">
+                </div>
+                <div class="input">
+                    <input type="password" name="password" placeholder="Password">
+                </div>
+                <button class="submit">Sign In</button>
+            </form>
+        </div>
+    </div>
+    <div id="black_fill"></div>
+    <div id="cart_box" class="anime main_flex__nowrap flex__jcontent_between flex__align-items_center">
+        <div class="title_cart main_flex__nowrap flex__jcontent_between flex__align-items_center">
+            <p>Your Cart</p>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="content_cart"></div>
+        <button id="order" type="button">Order</button>
+    </div>
+    <header class="dark">
+        <div id="top">
+            <div class="wrap main_flex__nowrap flex__align-items_center flex__jcontent_between">
+                <div class="main_flex__nowrap flex__align-items_center">
+                    <div id="sign" class="btn main_flex__nowrap flex__align-items_center flex__jcontent_between anime">
+                        <i class="fas fa-user"></i>
+                        Sign in
+                    </div>
+                    <div id="location">
+                        Location: <span>Russia</span>
+                    </div>
+                </div>
+                <div id="logo">
+                    <a href="#">Baikal</a>
+                </div>
+                <div class="main_flex__nowrap flex__align-items_center">
+                    <div id="currensy">
+                        Currency: <span>US Dollar</span>
+                    </div>
+                    <div id="cart" class="btn main_flex__nowrap flex__align-items_center flex__jcontent_between anime">
+                        <i class="fas fa-shopping-cart"></i>
+                        Cart
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menu">
+            <div class="wrap main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                <nav id="main_nav">
+                        <li><a href="#">Mens</a></li>
+                        <li><a href="#">Womens</a></li>
+                        <li><a href="#">Goods</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Brands</a></li>
+                        <li><a href="#">Blog</a></li>
+                </nav>
+                <div id="search_panel">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div id="search_button">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="banner">
+        <img src="img/brand-bg.png" alt="">
+    </div>
+    <main class="wrap main_flex__nowrap flex__jcontent_between flex__align-items_start">
+        <div id="left_bar">
+            <div id="category" class="box">
+                <div class="list_box">
+                    <div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between anime">
+                        <p>Woman</p>
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                    <div class="list_link anime">
+                        <nav>
+                            <li><a href="#">Jackets</a></li>
+                            <li><a href="#">Blazers</a></li>
+                            <li><a href="#">Suits</a></li>
+                            <li><a href="#">Trousers</a></li>
+                            <li><a href="#">Jeans</a></li>
+                            <li><a href="#">Shirts</a></li>
+                        </nav>
+                    </div>
+                </div>
+                <div class="list_box">
+                    <div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between anime">
+                        <p>Man</p>
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                    <div class="list_link anime">
+                        <nav>
+                            <li><a href="#">Jackets</a></li>
+                            <li><a href="#">Blazers</a></li>
+                            <li><a href="#">Suits</a></li>
+                            <li><a href="#">Trousers</a></li>
+                            <li><a href="#">Jeans</a></li>
+                            <li><a href="#">Shirts</a></li>
+                        </nav>
+                    </div>
+                </div>
+                <div class="list_box">
+                    <div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between anime">
+                        <p>Kids</p>
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                    <div class="list_link anime">
+                        <nav>
+                            <li><a href="#">Jackets</a></li>
+                            <li><a href="#">Blazers</a></li>
+                            <li><a href="#">Suits</a></li>
+                            <li><a href="#">Trousers</a></li>
+                            <li><a href="#">Jeans</a></li>
+                            <li><a href="#">Shirts</a></li>
+                        </nav>
+                    </div>
+                </div>
+                <div class="list_box">
+                    <div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between anime">
+                        <p>Shoes&amp;Bags</p>
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                    <div class="list_link anime">
+                        <nav>
+                            <li><a href="#">Jackets</a></li>
+                            <li><a href="#">Blazers</a></li>
+                            <li><a href="#">Suits</a></li>
+                            <li><a href="#">Trousers</a></li>
+                            <li><a href="#">Jeans</a></li>
+                            <li><a href="#">Shirts</a></li>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="filter_box box">
+                <div class="title_filter main_flex__nowrap flex__jcontent_start flex__align-items_center">
+                    Colors
+                </div>
+                <div class="content_filter">
+                    <ul class="list_filter main_flex flex__jcontent_start flex__align-items_start color_list">
+                        <li>
+                            <input id="blue" type="checkbox">
+                            <label style="background-color:#1476f1;" for="blue"></label>
+                        </li>
+                        <li>
+                            <input id="green" type="checkbox">
+                            <label style="background-color:#82d889;" for="green"></label>
+                        </li>
+                        <li>
+                            <input id="black" type="checkbox">
+                            <label style="background-color:#3c3d41;" for="black"></label>
+                        </li>
+                        <li>
+                            <input id="grey" type="checkbox">
+                            <label style="background-color:#838d8f;" for="grey"></label>
+                        </li>
+                        <li>
+                            <input id="light_green" type="checkbox">
+                            <label style="background-color:#b8c6c7;" for="light_green"></label>
+                        </li>
+                        <li>
+                            <input id="orange" type="checkbox">
+                            <label style="background-color:#ce954a;" for="orange"></label>
+                        </li>
+                        <li>
+                            <input id="dark_grey" type="checkbox">
+                            <label style="background-color:#7b7f91;" for="dark_grey"></label>
+                        </li>
+                        <li>
+                            <input id="brown" type="checkbox">
+                            <label style="background-color:#777777;" for="brown"></label>
+                        </li>
+                        <li>
+                            <input id="light_grey" type="checkbox">
+                            <label style="background-color:#bdbdbd;" for="light_grey"></label>
+                        </li>
+                        <li>
+                            <input id="white" type="checkbox">
+                            <label style="background-color:#eeeeee;" for="white"></label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="filter_box box">
+                <div class="title_filter main_flex__nowrap flex__jcontent_start flex__align-items_center">
+                    Size
+                </div>
+                <div class="content_filter">
+                    <ul class="list_filter main_flex flex__jcontent_start flex__align-items_start">
+                        <li>
+                            <input id="size_XS" type="checkbox">
+                            <label for="size_XS">XS</label>
+                        </li>
+                        <li>
+                            <input id="size_S" type="checkbox">
+                            <label for="size_S">S</label>
+                        </li>
+                        <li>
+                            <input id="size_M" type="checkbox">
+                            <label for="size_M">M</label>
+                        </li>
+                        <li>
+                            <input id="size_L" type="checkbox">
+                            <label for="size_L">L</label>
+                        </li>
+                        <li>
+                            <input id="size_XL" type="checkbox">
+                            <label for="size_XL">XL</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="filter_box box">
+                <div class="title_filter main_flex__nowrap flex__jcontent_start flex__align-items_center">
+                    Price Range
+                </div>
+                <div class="content_filter">
+                    <div id="slider_price">
+
+                    </div>
+                    <div class="price_box main_flex__nowrap flex__jcontent_between flex__align-items_center">
+                        <input type="text" name="minPrice" value="">
+                        <input type="text" name="maxPrice" value="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="right_bar">
+            <div class="list_product main_flex flex__jcontent_start flex__align-items_start">
+                <a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                    <div class="tag box">
+                        new
+                    </div>
+                    <div class="img_product">
+                        <img src="img/product-1.png" alt="">
+                    </div>
+                    <h2>Our Legacy Splash Jacquard Knit</h2>
+                    <p>Black Grey Pants</p>
+                    <p class="price">$290</p>
+                </a>
+                <a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                    <div class="img_product">
+                        <img src="img/product-2.png" alt="">
+                    </div>
+                    <h2>Our Legacy Splash 50s Sweater</h2>
+                    <p>Grey Melange</p>
+                    <p class="price">$160</p>
+                </a>
+                <a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                    <div class="img_product">
+                        <img src="img/product-3.png" alt="">
+                    </div>
+                    <h2>Our Legacy Splash First Shirt</h2>
+                    <p>Navy Crinkle</p>
+                    <p class="price">$180</p>
+                </a>
+                <a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                    <div class="img_product">
+                        <img src="img/product-4.png" alt="">
+                    </div>
+                    <h2>Our Legacy Splash Mid Sleeve Tee</h2>
+                    <p>Black Grey Plants</p>
+                    <p class="price">$90</p>
+                </a>
+                <a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                    <div class="img_product">
+                        <img src="img/product-5.png" alt="">
+                    </div>
+                    <h2>Our Legacy 50s Great Sweat</h2>
+                    <p>Super Light Print</p>
+                    <p class="price">$120</p>
+                </a>
+                <a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                    <div class="img_product">
+                        <img src="img/product-6.png" alt="">
+                    </div>
+                    <h2>Our Legacy Splash Jacquard Knit</h2>
+                    <p>Black Grey Pants</p>
+                    <p class="price">$320</p>
+                </a>
+                <a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                    <div class="img_product">
+                        <img src="img/product-7.png" alt="">
+                    </div>
+                    <h2>Our Legacy Splash Six Shirt</h2>
+                    <p>Raster Grey</p>
+                    <p class="price">$150</p>
+                </a>
+                <a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                    <div class="img_product">
+                        <img src="img/product-8.png" alt="">
+                    </div>
+                    <h2>Our Legacy Bomber Jacket II</h2>
+                    <p>Faded Olive Twill</p>
+                    <p class="price">$570</p>
+                </a>
+                <a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                    <div class="img_product">
+                        <img src="img/product-9.png" alt="">
+                    </div>
+                    <h2>Our Legacy 50s Great Sweat</h2>
+                    <p>Black Grey Pants</p>
+                    <p class="price">$190</p>
+                </a>
+            </div>
+            <button id="load_more" type="button">
+                Load More
+            </button>
+        </div>
+    </main>
+    <footer>
+        <div class="wrap">
+            <div>
+                <nav id="footer_nav" class="main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                    <li>
+                        <a href="#">Legal Info</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms</a>
+                    </li>
+                    <li>
+                        <a href="#">Data Privacy</a>
+                    </li>
+                    <li>
+                        <a href="#">Sizing</a>
+                    </li>
+                    <li>
+                        <a href="#">Shipping</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </nav>
+            </div>
+            <div id="newsletter" class="main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                <p>Newsletter</p>
+                <input type="text" placeholder="E-mail">
+            </div>
+            <div>
+                <ul id="soc_list" class="main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                    <li>
+                        <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+	<script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="libs/jquery/dist/jquery-1.8.3.js"></script>
+    <script src="libs/jquery/dist/jquery-ui-1.9.2.custom.min.js"></script>
+	<script src="js/common.js"></script>
+
+</body>
+</html>
