@@ -1,4 +1,4 @@
-// Функция, которая скрывает каждое третее письмо в Gmail
+// Функция, которая скрывает каждое третье письмо в Gmail
 
 function hideEveryThirdMail(item) {
     let emailList =  document.querySelectorAll(item);
@@ -8,6 +8,5 @@ function hideEveryThirdMail(item) {
         }
     })
 }
-
 
 hideEveryThirdMail('.zA');
